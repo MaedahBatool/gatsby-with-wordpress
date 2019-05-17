@@ -19,11 +19,12 @@ const slash = require(`slash`);
 exports.createPages = async ({ graphql, actions }) => {
 	const { createPage } = actions;
 
+	// @TODO: STEP #2: Query all WordPress Posts Data.
 	/** The “graphql” function allows us to run arbitrary
-	* queries against the local Gatsby GraphQL schema. Think of
-	* it like the site has a built-in database constructed
-	from the fetched data that you can run queries against.
-	*/
+	 * queries against the local Gatsby GraphQL schema. Think of
+	 * it like the site has a built-in database constructed
+	 * 	from the fetched data that you can run queries against.
+	 */
 	const result = await graphql(`
 		{
 			allWordpressPost {
@@ -45,10 +46,12 @@ exports.createPages = async ({ graphql, actions }) => {
 		throw new Error(result.errors);
 	}
 
-	// Access query results via object destructuring
+	// Access query results via object destructuring.
 	const { allWordpressPost } = result.data;
 
 	const postTemplate = path.resolve(`./src/templates/post.js`);
+
+	// @TODO: STEP #3: Create pages in Gatsby with WordPress Posts Data.
 	/**
 	 * We want to create a detailed page for each
 	 * post node. We'll just use the WordPress Slug for the slug.

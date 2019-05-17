@@ -27,7 +27,7 @@ module.exports = {
 				icon: `src/images/gatsby-icon.png` // This path is relative to the root of the site.
 			}
 		},
-		// STEP #1: Configure WordPress Backend as a source.
+		// @TODO: STEP #1: Configure WordPress Backend as a source.
 		{
 			resolve: `gatsby-source-wordpress`,
 			options: {
