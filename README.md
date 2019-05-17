@@ -1,4 +1,4 @@
-# `gatsby-with-wordpress` — A Gatsby & WordPress Integration
+#Gatsby & WordPress Integration
 
 ![gatsby-with-wordpress](https://on.ahmda.ws/5e3eae/c)
 
