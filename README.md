@@ -1,6 +1,6 @@
-# GatsbyWithWordPress — Gatsby + WordPress Integration
+# `gatsby-with-wordpress` — A Gatsby & WordPress Integration
 
-![](https://on.ahmda.ws/911470/c)
+![gatsby-with-wordpress](https://on.ahmda.ws/5e3eae/c)
 
 <br>
 

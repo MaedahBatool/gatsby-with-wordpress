@@ -1,5 +1,5 @@
 {
-	"name": "GatsbyWithWordPress",
+	"name": "gatsby-with-wordpress",
 	"private": true,
 	"description": "A simple integration to quickly convert your WordPress site to Gatsby.",
 	"version": "0.1.0",
