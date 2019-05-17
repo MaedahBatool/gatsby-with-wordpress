@@ -7,6 +7,7 @@ class PostTemplate extends Component {
 	render() {
 		const post = this.props.data.wordpressPost;
 
+		// @TODO: STEP #5: Use title and content in Gatsby.
 		return (
 			<Layout>
 				<h1 dangerouslySetInnerHTML={{ __html: post.title }} />
@@ -23,6 +24,7 @@ PostTemplate.propTypes = {
 
 export default PostTemplate;
 
+// @TODO: STEP #4: Get current WP Post data via ID.
 export const pageQuery = graphql`
 	query($id: String!) {
 		wordpressPost(id: { eq: $id }) {
