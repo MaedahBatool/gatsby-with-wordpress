@@ -69,5 +69,6 @@ assets/img/.DS_Store
 
 # VSCode related files #
 # .vscode
+# Gatsby related
 public
 .cache
