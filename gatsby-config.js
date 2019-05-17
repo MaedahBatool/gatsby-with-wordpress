@@ -39,6 +39,7 @@ module.exports = {
 				useACF: false
 			}
 		},
-		`gatsby-plugin-glamor`
+		`gatsby-plugin-glamor`,
+		`gatsby-plugin-offline`
 	]
 };
