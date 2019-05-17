@@ -213,4 +213,4 @@ Here's a GIF for it:
 
 ![GIF](https://on.ahmda.ws/948668/c)
 
-> 👋 **[Follow @MaedahBatool on Twitter](https://twitter.com/MaedahBatool) →**
+> 👋 **[Follow @MaedahBatool on Twitter](https://twitter.com/MaedahBatool/) →**
