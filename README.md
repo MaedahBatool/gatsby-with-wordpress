@@ -1,6 +1,6 @@
 # Gatsby & WordPress Integration
 
-![gatsby-with-wordpress](https://on.ahmda.ws/5e3eae/c)
+![Gatsby.js with WordPress](https://on.ahmda.ws/5e3eae/c)
 
 <br>
 
@@ -211,6 +211,6 @@ You get the link from where you can access the site locally along with other det
 
 Here's a GIF for it:
 
-![GIF](https://on.ahmda.ws/948668/c)
+![GIF Gatsby.js with WordPress](https://on.ahmda.ws/948668/c)
 
 > 👋 **[Follow @MaedahBatool on Twitter](https://twitter.com/MaedahBatool/) →**
