@@ -53,7 +53,7 @@ npm install gatsby-source-wordpress
 
 ### 🔘 Step #2: Configuring the plugin
 
-Inside your `gatsby-config.js` file, add the configuration options which includes your WordPress site’s `baseUrl`, `protocol`, whether it’s hosted on wordpress.com or self-hosted i.e., `hostingWPCOM`, and whether it uses the Advanced Custom Fields (ACF) plugin or not `useACF` Also, we are going to mention all the `includedRoutes` which tells what data do we exactly want to fetch.
+Inside your `gatsby-config.js` file, add the configuration options which includes your WordPress site’s `baseUrl`, `protocol`, whether it’s hosted on WordPress.com or self-hosted i.e., `hostingWPCOM`, and whether it uses the Advanced Custom Fields (ACF) plugin or not `useACF` Also, we are going to mention all the `includedRoutes` which tells what data do we exactly want to fetch.
 
 The configuration options inside your `gatsby-config.js` file looks like this:
 
