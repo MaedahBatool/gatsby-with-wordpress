@@ -42,7 +42,7 @@ gatsby develop
 
 </details>
 
-### 🔘 Step #1: Install `gatsby-source-wordpress` Plugin
+### #1: Install `gatsby-source-wordpress` Plugin
 
 If you have a WordPress site and you want to have its front-end built with Gatsby.js all you need to do is pull the existing data into your static Gatsby site. You can do that with the `gatsby-source-wordpress` plugin.
 
@@ -52,7 +52,7 @@ Inside your terminal type the following to install this plugin.
 npm install gatsby-source-wordpress
 ```
 
-### 🔘 Step #2: Configuring the plugin
+### #2: Configuring the plugin
 
 Inside your `gatsby-config.js` file, add the configuration options which includes your WordPress site’s `baseUrl`, `protocol`, whether it’s hosted on WordPress.com or self-hosted i.e., `hostingWPCOM`, and whether it uses the Advanced Custom Fields (ACF) plugin or not `useACF` Also, we are going to mention all the `includedRoutes` which tells what data do we exactly want to fetch.
 
@@ -79,7 +79,7 @@ module.exports = {
 }
 ```
 
-### 🔘 Step #3: Using the Fetched WordPress Data
+### #3: Using the Fetched WordPress Data
 
 Once your Gatsby site is fetching data from your WordPress source URL, it's time to create your site pages. This is done by implementing the `createPages` API in the `gatsby-node.js`.
 
@@ -156,7 +156,7 @@ exports.createPages = async ({ graphql, actions }) => {
 };
 ```
 
-### 🔘 Step #4: Create a `post.js` Template
+### #4: Create a `post.js` Template
 
 Next, create a folder for templates and add files for posts, pages, layouts, etc. For now, I am creating a `post.js` file since I am fetching the posts from my WordPress site.
 
@@ -199,7 +199,7 @@ export const pageQuery = graphql`
 
 ```
 
-### 🔘 Step #5: Final Result
+### #5: Final Result
 
 To start the development server to view the final result type the following command.
 
@@ -208,9 +208,5 @@ npm start
 ```
 
 You get the link from where you can access the site locally along with other details like no. of posts, categories and tags that are being fetched.
-
-Here's a GIF for it:
-
-![GIF Gatsby.js with WordPress](https://on.ahmda.ws/948668/c)
 
 > 👋 **[Follow @MaedahBatool on Twitter](https://twitter.com/MaedahBatool/) →**
