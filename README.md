@@ -14,7 +14,7 @@ First we are going to configure a basic Gatsby project setup. And then we'll use
  <details>
  <summary> <strong><code> Step #0</code></strong>: Don't have a Gatsby site setup? Read this. (CLICK TO EXPAND!) </summary>
 
-In case you are an absolute beginner and this is your first time with Gatsby.js, all you need to do is follow these steps mentioned below. These will help you set up a basic Gatsby project.
+If this is your first time with Gatsby.js, all you need to do is follow these steps mentioned below. These will help you set up a basic Gatsby project.
 
 - Install the Gatsby CLI by typing the following command in your terminal
 
@@ -56,7 +56,7 @@ npm install gatsby-source-wordpress
 
 Inside your `gatsby-config.js` file, add the configuration options which includes your WordPress site’s `baseUrl`, `protocol`, whether it’s hosted on WordPress.com or self-hosted i.e., `hostingWPCOM`, and whether it uses the Advanced Custom Fields (ACF) plugin or not `useACF` Also, we are going to mention all the `includedRoutes` which tells what data do we exactly want to fetch.
 
-The configuration options inside your `gatsby-config.js` file looks like this:
+Inside your `gatsby-config.js` file, the configuration options looks like this:
 
 ```js
 module.exports = {
@@ -81,11 +81,11 @@ module.exports = {
 
 ### #3: Using the Fetched WordPress Data
 
-Once your Gatsby site is fetching data from your WordPress source URL, it's time to create your site pages. This is done by implementing the `createPages` API in the `gatsby-node.js`.
+Once your Gatsby site is fetching data from your WordPress source URL, next you'll create your site pages. This is done by implementing the `createPages` API in the `gatsby-node.js`.
 
 This makes your fetched data available to be queried with GraphQL. At `build` time, the `gatsby-source-wordpress` plugin fetches your data, and use it to ”automatically infer a GraphQL schema” which you can query against.
 
-Here's the code is of the `gatsby-node.js` file which iterates the WordPress post data.
+Here's the code of the `gatsby-node.js` file which iterates the WordPress post data.
 
 ```js
 /**
@@ -158,7 +158,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
 ### #4: Create a `post.js` Template
 
-Next, create a folder for templates and add files for posts, pages, layouts, etc. For now, I am creating a `post.js` file since I am fetching the posts from my WordPress site.
+Then, create a folder for templates and add files for posts, pages, layouts, etc. For now, I am creating a `post.js` file since I am fetching the posts from my WordPress site.
 
 Here's the code:
 
