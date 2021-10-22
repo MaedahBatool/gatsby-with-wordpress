@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://on.ahmda.ws/5e3eae/c" alt="Gatsby.js with WordPress" />
+  <img src= "https://on.awais.dev/P8u8RWy1" alt="Gatsby.js with WordPress" />
   
 <br>Gatsby & WordPress Integration
 </h1>
